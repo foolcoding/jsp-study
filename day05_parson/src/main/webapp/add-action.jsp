@@ -21,7 +21,7 @@ ${personList.add(paramDTO) }
 <%
 // 	ArrayList<PersonDTO> personList = (ArrayList<PersonDTO>)application.getAttribute("personList");
 // 	personList.add(paramDTO);
-	
+
 //	response.sendRedirect("list.jsp");	// 각 객체를 고유식별할 값이 없으면 목록으로 이동
 	String name = URLEncoder.encode(paramDTO.getName(), "UTF-8");
 	response.sendRedirect("view.jsp?name=" + name);

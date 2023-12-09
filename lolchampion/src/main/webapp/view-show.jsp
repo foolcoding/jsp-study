@@ -6,6 +6,11 @@
 <head>
 <meta charset="UTF-8">
 <title>view-show.jsp</title>
+<style>
+	img{
+		width: 300px;
+	}
+</style>
 </head>
 <body>
 
