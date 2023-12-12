@@ -13,7 +13,7 @@
 </head>
 <body>
 
-<h1><a href="index.jsp">PHONEBOOK</a></h1>
+<h1><a href="${cpath }">PHONEBOOK</a></h1>
 <div>
 	<ul>
 		<li><a href="list.jsp">목록</a></li>
