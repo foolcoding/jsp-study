@@ -12,7 +12,7 @@
 				<a href="${cpath }/view.jsp?idx=${dto.idx}">
 					<img style="width:100%; height:100%" src="${cpath }/image/${dto.imgName }" height= "120"></a>
 			</div>
-			<div class="title">${dto.title }</div>
+			<div class="title hidden">${dto.title }</div>
 			<div class="channel">${dto.channel }</div>
 		</div>
 		</c:forEach>

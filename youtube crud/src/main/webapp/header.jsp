@@ -77,6 +77,15 @@
 		background-color: black;
 		color: white;
 	}
+	.hidden{
+		line-height: 2.2rem;
+		overflow: hidden;
+		max-height: 4.4rem;
+		-webkit-line-clemp: 2;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		font-size: 15px;
+	}
 </style>
 </head>
 <body>
